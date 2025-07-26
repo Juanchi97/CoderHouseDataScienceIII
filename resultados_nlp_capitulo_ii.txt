@@ -1,0 +1,26 @@
+# Resultados del Análisis NLP - Capítulo II: El pueblo Ona
+
+## Tokenización y limpieza
+Primeros 10 tokens limpios: ['fin', 'mundo', 'capitulo', 'ii', 'pueblo', 'ona', 'vida', 'muerte', 'tierra', 'fuego']
+
+## Lematización
+Primeros 10 lemas: ['fin', 'mundo', 'capitulo', 'ii', 'pueblo', 'ona', 'vida', 'muerte', 'tierra', 'fuego']
+
+## Análisis de sentimientos
+TextBlob: Positivo, Polaridad: 0.08, Subjetividad: 0.42
+VADER: Negativo, Polaridad: -1.00
+
+## Entidades nombradas
+Primeras 10 entidades: [('FIN DE UN', 'ORG'), ('Ana Montes PRIMERA PARTE', 'PER'), ('VIDA Anne Chapman', 'PER'), ('Kiepja', 'PER'), ('Lola', 'PER'), ('Tierra del Fuego', 'LOC'), ('Kiepja', 'PER'), ('De los pocos sobrevivientes de su grupo', 'MISC'), ('Acampaba', 'PER'), ('Anciana', 'PER')]
+
+## Modelado de temas (LDA)
+Coherencia del modelo (C_V): 0.24
+Tema 1: 0.009*"grande" + 0.009*"ahí" + 0.009*"chapman" + 0.008*"morir" + 0.008*"ir" + 0.007*"angela" + 0.007*"hacer" + 0.007*"tierra" + 0.007*"selknam" + 0.007*"saber"
+Tema 2: 0.001*"grande" + 0.001*"ir" + 0.001*"morir" + 0.001*"angela" + 0.001*"ahí" + 0.001*"año" + 0.001*"chapman" + 0.001*"selknam" + 0.001*"indio" + 0.001*"vida"
+Tema 3: 0.001*"ir" + 0.001*"grande" + 0.001*"tierra" + 0.001*"angela" + 0.001*"ahí" + 0.001*"chapman" + 0.001*"poder" + 0.001*"morir" + 0.001*"hacer" + 0.001*"garibaldi"
+Tema 4: 0.001*"grande" + 0.001*"garibaldi" + 0.001*"ahí" + 0.001*"hacer" + 0.001*"vivir" + 0.001*"ir" + 0.001*"morir" + 0.001*"tierra" + 0.001*"isla" + 0.001*"selknam"
+Tema 5: 0.001*"ahí" + 0.001*"chapman" + 0.001*"grande" + 0.001*"ir" + 0.001*"año" + 0.001*"garibaldi" + 0.001*"angela" + 0.001*"poder" + 0.001*"selknam" + 0.001*"morir"
+
+## Visualizaciones
+Se generaron: nube de palabras, distribución de entidades, temas LDA y top palabras clave.
+Mapa interactivo de Tierra del Fuego guardado como 'mapa_tierra_del_fuego.html'.
